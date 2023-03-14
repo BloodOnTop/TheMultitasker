@@ -1,0 +1,27 @@
+{
+    "RedAlerts": {
+        "url": "https://www.oref.org.il/WarningMessages/alert/alerts.json",
+        "requestOptions": {
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": "https://www.oref.org.il/"
+        },
+        "Activated": false
+    },
+    "Covid": {
+        "url": "https://www.worldometers.info"
+    },
+    "Nikud": {
+        "url": "https://nakdan-3-0a.loadbalancer.dicta.org.il/api",
+        "requestOptions": {
+            "method": "POST",
+            "headers": {
+                "accept": "*/*",
+                "content-type": "text/plain;charset=UTF-8",
+                "sec-ch-ua": "\"Google Chrome\";v=\"93\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"93\"",
+                "sec-fetch-site": "same-site"
+            },
+            "referrer": "https://nakdan.dicta.org.il/",
+            "referrerPolicy": "strict-origin-when-cross-origin"
+        }
+    }
+}
