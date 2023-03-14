@@ -234,3 +234,4 @@ Now, inside index.js change `executablePath` path in the options to where you've
 npm start
 ```
 scan the QR code and wow, you're done!
+x
