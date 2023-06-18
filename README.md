@@ -235,3 +235,4 @@ npm start
 ```
 scan the QR code and wow, you're done!
 x
+
